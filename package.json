@@ -1,0 +1,40 @@
+{
+  "name": "markdown-it-wikilinks-plus",
+  "description": "internal wikilinks and wikilinks-format (image) embeds",
+  "version": "1.0.1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "markdownit",
+    "markdown-it",
+    "markdown",
+    "wikilinks",
+    "image-embed",
+    "11ty",
+    "eleventy",
+    "plugin",
+    "obsidian"
+  ],
+  "author": "cat",
+  "license": "MIT",
+  "homepage": "https://github.com/actuallysomecat/markdown-it-wikilinks-plus",
+  "bugs": "https://github.com/actuallysomecat/markdown-it-wikilinks-plus/issues",
+  "repository": "https://github.com/actuallysomecat/markdown-it-wikilinks-plus",
+  "dependencies": {
+    "extend": "^3.0.2",
+    "proper-url-join": "^2.1.2",
+    "sanitize-filename": "^1.6.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@stylistic/eslint-plugin-js": "^4.2.0",
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.0",
+    "globals": "^16.1.0",
+    "prettier": "^3.5.3"
+  }
+}
