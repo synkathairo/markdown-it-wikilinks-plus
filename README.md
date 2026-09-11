@@ -27,18 +27,21 @@ This plugin can also create an `alt` attribute for image embeds with *missing* a
 > [!TIP]
 > this can be an empty string, to get `alt=""` attributes on image embeds with missing alt text
 
+> [!NOTE]
+> The upstream package, originally found at [actuallysomecat/markdown-it-wikilinks-plus](https://github.com/actuallysomecat/markdown-it-wikilinks-plus) was taken offline which broke my site build. In accordance with the permissive license of the original package, this fork is made using the archived version that survived in my `node_modules` directory. As such, it lacks previous git commit history from the upstream package.
+
 ---
 
 ## Installation
 Install in your project with:
 ```bash
-npm install github:actuallysomecat/markdown-it-wikilinks-plus
+npm install github:synkathairo/markdown-it-wikilinks-plus
 ```
 or manually by adding to your `package.json` dependencies:
 ```json
 {
   "dependencies": {
-    "markdown-it-wikilinks-plus": "github:actuallysomecat/markdown-it-wikilinks-plus"
+    "markdown-it-wikilinks-plus": "github:synkathairo/markdown-it-wikilinks-plus"
   }
 }
 ```
